@@ -17,7 +17,7 @@ const WeddingInvitation = () => {
   const buttonData = [
     { label: 'Home', url: 'https://maps.app.goo.gl/2fEMPqjbu7wibwe57', color: '#4CAF50' },
     { label: 'Venue', url: 'https://maps.app.goo.gl/XYsUC5eUtkGvha5W6', color: '#3F51B5' },
-    { label: 'Contact', url: 'tel:+1234567890', color: '#FF5722' },
+    { label: 'Contact', url: 'tel:+918281958206', color: '#FF5722' },
   ];
 
   const handleButtonClick = (url) => {
