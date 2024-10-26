@@ -1,0 +1,88 @@
+.wedding-invitation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5; /* Light gray background for better contrast */
+    padding: 20px; /* Padding around the container */
+    height: 75vh; 
+    margin-top: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wedding-invitation-paper {
+    padding: 20px; /* Padding inside the paper */
+    background: white; /* White background for the invitation */
+    border-radius: 15px; /* Rounded corners */
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s; /* Transition for hover effect */
+    width: 100%; /* Full width for mobile */
+    max-width: 400px; /* Max width to ensure good appearance on larger screens */
+}
+
+.wedding-invitation-paper:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+.wedding-invitation-image-container {
+    width: 120px; /* Fixed width for the circular image */
+    height: 120px; /* Fixed height for the circular image */
+    overflow: hidden; /* Hide overflow for the image */
+    border-radius: 50%; /* Make the image circular */
+    margin: 0 auto 15px; /* Center the image and add bottom margin */
+    border: 5px solid #4CAF50; /* Green border around the image */
+}
+
+.wedding-invitation-image {
+    width: 100%; /* Full width for the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.wedding-invitation-title {
+    font-weight: bold;
+    color: #333; /* Dark gray color for the title */
+    margin: 10px 0; /* Margin for spacing */
+}
+
+.wedding-invitation-names {
+    color: #4CAF50; /* Green color for names */
+    margin: 5px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.wedding-invitation-details,
+.wedding-invitation-venue {
+    color: #555; /* Darker gray for details */
+    margin: 5px 0;
+}
+
+.wedding-invitation-button {
+    margin-top: 15px;
+    background-color: #4CAF50; /* Green color for the button */
+    color: white; /* White text for contrast */
+    border-radius: 5px; /* Rounded button */
+    padding: 10px 25px; /* Padding for button */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+    width: 100%; /* Full width for the button */
+}
+
+.wedding-invitation-button:hover {
+    background-color: darkgreen;
+        transform: translateY(-2px); /* Lift the button on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .wedding-invitation-paper {
+        padding: 5px; /* Adjust padding for mobile */
+    }
+
+    .wedding-invitation-title {
+        font-size: 1.5rem; /* Smaller title font on mobile */
+    }
+
+    .wedding-invitation-names {
+        font-size: 1.2rem; /* Smaller names font on mobile */
+    }
+}

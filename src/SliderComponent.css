@@ -1,0 +1,14 @@
+/* SliderComponent.css */
+.slider-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  @media (max-width: 600px) {
+    .slider-image {
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+  
